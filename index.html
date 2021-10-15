@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Dice Game</title> 
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&amp;display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="index.css">
+ <body> 
+   <!-- Heading -->
+   <h1 id="top">
+   <svg id="flag" class="bi bi-flag-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewbox="0 0 16 16"> 
+    <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001" /> 
+   </svg> 
+   <span id="heading">DICE GAME </span>  
+   </h1>   
+  <span class="players"> Player 1</span> 
+  <span class="players"> Player 2</span> 
+  <section> 
+   <span id="dice1"> 
+    <svg class="bi bi-dice-1-fill dice" xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" viewbox="0 0 16 16"> 
+     <path d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3zm5 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" /> 
+    </svg> </span> 
+   <span id="dice2"> 
+    <svg class="bi bi-dice-1-fill dice" xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" viewbox="0 0 16 16"> 
+     <path d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3zm5 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" /> 
+    </svg> </span> 
+   <div id="btn"> 
+    <button onclick="rollTheDice()">Roll</button> 
+   </div> 
+  </section>
+  <script src="index.js"></script>
+ </body>
+</html>
